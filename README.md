@@ -5,6 +5,8 @@ Présentation lors de la [séance du Club-Méta du 8 décembre 2015](http://club
 **pandoc**, c'est un couteau suisse qui convertit de tout vers tout.  
 Notamment Markdown vers HTML, LaTeX, Beamer ou même `.docx`. Et c'est codé en Haskell.
 
+[Essayez-le](http://pandoc.org/try/) en ligne :)
+
 ## Installation
 
 Si vous êtes sur Mac, `brew install pandoc`.  
@@ -12,7 +14,7 @@ Sinon, vous pouvez télécharger pandoc sur [le site officiel](http://pandoc.org
 
 ## Commandes
 
-    hg clone https://jilljenn@bitbucket.org/jilljenn/trypandoc
+    git clone https://github.com/jilljenn/trypandoc.git
     cd trypandoc
     make
 
